@@ -1,0 +1,105 @@
+/* Kind Words AI 🌸 by Karina */
+
+body {
+    background: linear-gradient(135deg, #fde2e4, #e7c6ff, #fff0f5);
+    background-size: 400% 400%;
+    animation: gradientShift 12s ease infinite;
+    font-family: "Love Ya Like A Sister", cursive;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #5a082d;
+    margin: 0;
+    padding: 0;
+}
+@keyframes gradientShift {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.container {
+    background: #fde3f0;
+    backdrop-filter: blur(10px);
+    padding: 40px 50px;
+    border-radius: 25px;
+    box-shadow: 0 10px 40px rgba(90, 8, 45, 0.1);
+    text-align: center;
+    max-width: 600px;
+    width: 90%;
+}
+
+h1 {
+    color: #5a082d;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.tagline {
+    color: #7b506f;
+    font-size: 16px;
+    margin-bottom: 30px;
+    font-style: italic;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input[type="text"] {
+    border: 2px solid #e7c6ff;
+    border-radius: 20px;
+    padding: 12px 18px;
+    width: 70%;
+    font-size: 16px;
+    color: #5a082d;
+    background-color: #fffafc;
+    transition: all 0.3s ease;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: #fa360a;
+    box-shadow: 0 0 10px rgba(250, 54, 10, 0.2);
+}
+
+button {
+    margin-left: 10px;
+    background: #5a082d;
+    color: #fff0f5;
+    font-size: 18px;
+    font-family: "Love Ya Like A Sister", cursive;
+    border: none;
+    border-radius: 30px;
+    padding: 12px 24px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: #fa360a;
+    transform: scale(1.05);
+}
+
+.output {
+    margin-top: 30px;
+    font-size: 20px;
+    color: #5a082d;
+    background-color: #fffafc;
+    border-radius: 20px;
+    padding: 25px;
+    min-height: 100px;
+    line-height: 1.6;
+    box-shadow: 0 0 15px rgba(250, 54, 10, 0.05);
+}
