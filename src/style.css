@@ -102,6 +102,7 @@ button:hover {
     min-height: 100px;
     line-height: 1.6;
     box-shadow: 0 0 15px rgba(250, 54, 10, 0.05);
+    display:none;
 }
 
 .container footer {

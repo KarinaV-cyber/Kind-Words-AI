@@ -15,6 +15,8 @@ form.addEventListener("submit", async function (event) {
   }
    
   output.innerHTML = "Generating your kind words… 🌷";
+  let outputElement = document.querySelector("#output");
+outputElement.style.display="block";
 
   let apiKey = "oa13410f1922d7b4t12b44ae83ead081";
   let prompt = encodeURIComponent(
