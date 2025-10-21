@@ -18,7 +18,7 @@ form.addEventListener("submit", async function (event) {
 
   let apiKey = "oa13410f1922d7b4t12b44ae83ead081";
   let prompt = encodeURIComponent(
-    `Write a short, gentle, and uplifting message about ${topic}. It should sound like a friend offering kind words Please keep it to about 4 lines in basic format.`
+    `Write a short, gentle, and uplifting message about ${topic}. It should sound like a friend offering kind words.`
   );
   let context = encodeURIComponent(
     "You are a kind and understanding AI who comforts users."
